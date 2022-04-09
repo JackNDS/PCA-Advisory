@@ -567,16 +567,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-16 {
   width: 4rem;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .max-w-md {
@@ -589,32 +581,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.snap-x {
-  -ms-scroll-snap-type: x var(--tw-scroll-snap-strictness);
-      scroll-snap-type: x var(--tw-scroll-snap-strictness);
-}
-
-.snap-y {
-  -ms-scroll-snap-type: y var(--tw-scroll-snap-strictness);
-      scroll-snap-type: y var(--tw-scroll-snap-strictness);
-}
-
-.snap-mandatory {
-  --tw-scroll-snap-strictness: mandatory;
-}
-
-.snap-start {
-  scroll-snap-align: start;
-}
-
-.snap-center {
-  scroll-snap-align: center;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -703,10 +669,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .self-end {
   align-self: flex-end;
-}
-
-.overflow-scroll {
-  overflow: scroll;
 }
 
 .rounded-full {
@@ -944,14 +906,6 @@ body{
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.hover\:fill-brightRed:hover {
-  fill: hsl(12, 88%, 59%);
-}
-
-.hover\:stroke-brightRed:hover {
-  stroke: hsl(12, 88%, 59%);
-}
-
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
@@ -974,11 +928,6 @@ body{
 
   .sm\:w-auto {
     width: auto;
-  }
-
-  .sm\:snap-x {
-    -ms-scroll-snap-type: x var(--tw-scroll-snap-strictness);
-        scroll-snap-type: x var(--tw-scroll-snap-strictness);
   }
 
   .sm\:self-center {
